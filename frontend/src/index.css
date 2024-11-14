@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Merienda:wght@300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Alegreya";
+    font-size: 22px;
+    background-color: rgb(249, 248, 196);
+}
+
+/* 
+.stripe-custom-class form button {
+  @apply bg-blue-600 text-white px-4 py-1; 
+} */
+
+/* Scroll bar  */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff194b92;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b68bdcf1;
+  transition: 1s;
+}
